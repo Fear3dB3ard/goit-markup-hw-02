@@ -24,10 +24,10 @@ ul {
   list-style-type: none;
 }
 /* classes */
-.button-allingment{
+.button-allingment {
   display: inline-flex;
-align-items: flex-start;
-gap: 24px;
+  align-items: flex-start;
+  gap: 24px;
 }
 .button-sorcuts {
   background-color: var(--CORNFLOWER);
@@ -35,10 +35,10 @@ gap: 24px;
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }
 .button-sorcuts:hover {
   background-color: var(--OCEAN);
@@ -118,10 +118,10 @@ h2 {
 h3 {
   color: #2e2f42;
   font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
 .paragraf-allinment {
   color: var(--SLATE);
