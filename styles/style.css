@@ -3,13 +3,15 @@
   --IRIS: #4d5ae5;
   --CLOUD: #f4f4fd;
   --NAVY-BLUE: #2e2f42;
-  --WHITE: #fff;
+  --WHITE: #ffffffff;
   --OCEAN: #404bbf;
   --CORNFLOWER: #e7e9fc;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
 body {
+  background-color: #ffffffff;
+  color: #434455;
   font-family: var(--text-font-family);
   font-size: 16px;
   font-style: normal;
@@ -29,7 +31,7 @@ ul {
   align-items: flex-start;
   gap: 24px;
 }
-.button-sorcuts {
+.navi-menu {
   background-color: var(--CORNFLOWER);
   color: var(--IRIS);
   cursor: pointer;
@@ -40,11 +42,11 @@ ul {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.button-sorcuts:hover {
+.navi-menu:hover {
   background-color: var(--OCEAN);
   color: var(--WHITE);
 }
-
+/* logo section */
 .web-icon {
   color: var(--IRIS);
   font-family: Raleway;
