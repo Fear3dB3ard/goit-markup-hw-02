@@ -24,16 +24,21 @@ ul {
   list-style-type: none;
 }
 /* classes */
+.button-allingment{
+  display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+}
 .button-sorcuts {
   background-color: var(--CORNFLOWER);
   color: var(--IRIS);
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
 }
 .button-sorcuts:hover {
   background-color: var(--OCEAN);
@@ -83,7 +88,6 @@ ul {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  
 }
 .book-service-button {
   background-color: var(--IRIS);
@@ -97,8 +101,9 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-h1{width: 496px;
-    } 
+h1 {
+  width: 496px;
+}
 h2 {
   color: var(--NAVY-BLUE);
   text-align: center;
@@ -113,11 +118,10 @@ h2 {
 h3 {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
-  text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
 }
 .paragraf-allinment {
   color: var(--SLATE);
