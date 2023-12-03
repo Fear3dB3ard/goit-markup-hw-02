@@ -32,19 +32,34 @@ ul {
   gap: 24px;
 }
 .navi-menu {
-  background-color: var(--CORNFLOWER);
+  font-family: var(--text-font-family);
+  background-color: var(--CLOUD);
   color: var(--IRIS);
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.navi-menu:hover {
+.navi-menu:hover,
+.navi-menu:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+}
+.subtitle-portfolio-img {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+.subtitle-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
 }
 /* logo section */
 .logo-webstudio {
@@ -54,7 +69,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--IRIS);
+  color: var(--IRIS), #4d5ae5;
 }
 
 .studio-icon {
@@ -75,7 +90,8 @@ ul {
   text-decoration: none;
   color: var(--NAVY-BLUE);
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--OCEAN);
 }
 .contact-item {
@@ -145,7 +161,7 @@ ul {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.4px;
   background-color: var(--WHITE);
 }
@@ -154,7 +170,7 @@ ul {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .paragraf-item {
@@ -166,7 +182,7 @@ ul {
 footer {
   background-color: var(--NAVY-BLUE);
 }
-.text-web-footer {
+.logo-webstudio {
   color: var(--IRIS);
 }
 .studio-item-foother {
