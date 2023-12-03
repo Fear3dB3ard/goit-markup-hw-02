@@ -34,11 +34,10 @@ ul {
 .navi_menu {
   font-family: var(--text-font-family);
   background-color: var(--CLOUD);
-  color: var(--IRIS);
+  color: var(--IRIS),#4d5ae5;
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -46,7 +45,7 @@ ul {
 .navi_menu:hover,
 .navi_menu:focus {
   background-color: var(--OCEAN);
-  color: var(--WHITE);
+  color: var(--WHITE),#FFFFFFFF;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
