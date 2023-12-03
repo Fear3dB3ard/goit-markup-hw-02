@@ -55,7 +55,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS);
-  
 }
 
 .studio-icon {
@@ -68,7 +67,6 @@ ul {
 .list-item {
   color: var(--NAVY-BLUE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.2em;
