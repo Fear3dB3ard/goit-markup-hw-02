@@ -26,11 +26,7 @@ ul {
   list-style-type: none;
 }
 /* classes */
-.button_allingment {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
-}
+
 .navi_menu {
   font-family: var(--text-font-family);
   color: var(--IRIS);
@@ -128,8 +124,8 @@ ul {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ 
+ 
   cursor: pointer;
   text-align: center;
 }
@@ -181,17 +177,15 @@ ul {
 }
 .image-bacground {
   background-color: var(--WHITE);
-  border-radius: 0px 0px 4px 4px;
+ 
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: inline-flex;
+  
+  
   padding-bottom: 32px;
-  flex-direction: column;
+ 
   justify-content: center;
   align-items: center;
-  gap: 32px;
+ 
 }
 
 .paragraf-about-section {
