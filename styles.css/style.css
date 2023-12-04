@@ -30,7 +30,6 @@ ul {
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
-
 }
 .navi_menu {
   font-family: var(--text-font-family);
@@ -46,7 +45,7 @@ ul {
 .navi_menu:hover,
 .navi_menu:focus {
   background-color: var(--OCEAN);
-  color: var(--WHITE), #FFFFFFFF;
+  color: var(--WHITE), #ffffffff;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
@@ -99,6 +98,7 @@ ul {
 }
 .address_item {
   font-style: normal;
+  color: var(--SLATE, #434455);
 
   /* title section */
 }
