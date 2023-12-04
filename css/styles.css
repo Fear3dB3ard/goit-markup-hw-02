@@ -25,29 +25,6 @@ a {
 ul {
   list-style-type: none;
 }
-
-/* list element nav */
-.list {
-  list-style: none;
-  color: var(--SLATE), #434455;
-}
-.list_item {
-  color: var(--NAVY-BLUE), #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* link si linkhover  */
-.link {
-  text-decoration: none;
-  color: var(--NAVY-BLUE);
-}
-.link:hover,
-.link:focus {
-  color: var(--OCEAN);
-}
 /* classes */
 .button_allingment {
   display: inline-flex;
@@ -57,7 +34,7 @@ ul {
 .navi_menu {
   font-family: var(--text-font-family);
   background-color: var(--CLOUD);
-  color: #4d5ae5, var(--IRIS);
+  color: #4d5ae5;
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
@@ -67,8 +44,8 @@ ul {
 }
 .navi_menu:hover,
 .navi_menu:focus {
-  color: #ffffffff, var(--WHITE);
   background-color: var(--OCEAN);
+  color: #FFFFFFFF;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
@@ -97,12 +74,32 @@ ul {
 .studio_icon {
   color: var(--NAVY-BLUE);
 }
-
+/* list section */
+.list {
+  list-style: none;
+  color: var(--SLATE), #434455;
+}
+.list_item {
+  color: var(--NAVY-BLUE), #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+.link:hover,
+.link:focus {
+  color: var(--OCEAN);
+}
 .contact-item {
   color: var(--SLATE), #434455;
 }
 .address_item {
   font-style: normal;
+  color: var(--SLATE, #434455);
 
   /* title section */
 }
@@ -146,7 +143,7 @@ ul {
   background-color: var(--OCEAN);
 }
 
-.what-are-we-title {
+.What-Are-We-title {
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -159,11 +156,7 @@ ul {
 .our_team_section {
   background-color: var(--CLOUD);
 }
-.image-bacground {
-  color: #ffffffff;
-  text-align: center;
-}
-.teamtitle {
+.team_title {
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -173,10 +166,6 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.paragraf_item {
-  color: var(--SLATE);
-  text-align: center;
-}
 .our_team_subtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -185,7 +174,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.4px;
   background-color: var(--WHITE), #ffffffff;
-  text-align: center;
 }
 .about-section-title {
   color: #2e2f42;
@@ -196,7 +184,11 @@ ul {
   letter-spacing: 0.4px;
   text-align: center;
 }
-
+.paragraf-about-section {
+  color: var(--SLATE);
+  text-align: center;
+  background-color: var(--WHITE);
+}
 /* footer section */
 footer {
   background-color: var(--NAVY-BLUE);
