@@ -77,10 +77,10 @@ ul {
 /* list section */
 .list {
   list-style: none;
-  color: var(--SLATE);
+  color: var(--SLATE), #434455;
 }
 .list_item {
-  color: var(--NAVY-BLUE);
+  color: var(--NAVY-BLUE), #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -115,7 +115,7 @@ ul {
   flex-shrink: 0;
   text-align: center;
 }
-.title-efectiv-solution{
+.title-efectiv-solution {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -143,7 +143,7 @@ ul {
   background-color: var(--OCEAN);
 }
 
-.What-Are-We-title{
+.What-Are-We-title {
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -153,10 +153,10 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.our_team_section{
+.our_team_section {
   background-color: var(--CLOUD);
 }
-.team_title{
+.team_title {
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -166,14 +166,14 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.our_team_subtitle{
+.our_team_subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  background-color: var(--WHITE),#FFFFFFFF;
+  background-color: var(--WHITE), #ffffffff;
 }
 .about-section-title {
   color: #2e2f42;
