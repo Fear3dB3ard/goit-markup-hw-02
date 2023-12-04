@@ -94,7 +94,7 @@ ul {
 .link:focus {
   color: var(--OCEAN);
 }
-.contact-item {
+.contact_item {
   color: var(--SLATE), #434455;
 }
 .address_item {
@@ -172,7 +172,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   background-color: var(--WHITE), #ffffffff;
 }
 .about-section-title {
