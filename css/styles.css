@@ -42,22 +42,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.navi_menu:hover ,
+.navi_menu:hover,
 .navi_menu:focus {
-   color: var(--WHITE), #ffffffff;;
+color: var(--WHITE);
 }
-
- 
-.all-buton {
-  color: var(--IRIS);
-  font-family: var(--text-font-family);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-
 .subtitle_portfolio_img {
   font-weight: 500;
   font-size: 20px;
