@@ -33,7 +33,7 @@ ul {
 }
 .navi_menu {
   font-family: var(--text-font-family);
-  color: var(--IRIS), #4d5ae5;
+  color: var(--IRIS);
   background-color: var(--CLOUD);
   cursor: pointer;
   border: rgb(0, 0, 0);
