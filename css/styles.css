@@ -44,7 +44,8 @@ ul {
 }
 .navi_menu:hover,
 .navi_menu:focus {
-color: var(--WHITE);
+background-color: #404BBF;
+color:#FFFFFF;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
