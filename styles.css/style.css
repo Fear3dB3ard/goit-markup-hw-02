@@ -30,11 +30,12 @@ ul {
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
+
 }
 .navi_menu {
   font-family: var(--text-font-family);
   background-color: var(--CLOUD);
-  color: var(--IRIS),#4d5ae5;
+  color: var(--IRIS), #4d5ae5;
   cursor: pointer;
   border: rgb(0, 0, 0);
   font-size: 16px;
@@ -45,7 +46,7 @@ ul {
 .navi_menu:hover,
 .navi_menu:focus {
   background-color: var(--OCEAN);
-  color: var(--WHITE),#FFFFFFFF;
+  color: var(--WHITE), #FFFFFFFF;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
@@ -94,7 +95,7 @@ ul {
   color: var(--OCEAN);
 }
 .contact-item {
-  color: var(--SLATE);
+  color: var(--SLATE), #434455;
 }
 .address_item {
   font-style: normal;
