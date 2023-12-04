@@ -143,7 +143,7 @@ ul {
   background-color: var(--OCEAN);
 }
 
-.What_Are_We_Doing_title {
+.What-Are-We-title{
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -153,10 +153,10 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.our_team_section {
+.our_team_section{
   background-color: var(--CLOUD);
 }
-.our_team_title {
+.team_title{
   color: var(--NAVY-BLUE);
   text-align: center;
   font-size: 36px;
@@ -166,14 +166,14 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.our_team_subtitle {
+.our_team_subtitle{
   color: #2e2f42;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  background-color: var(--WHITE);
+  background-color: var(--WHITE),#FFFFFFFF;
 }
 .about-section-title {
   color: #2e2f42;
