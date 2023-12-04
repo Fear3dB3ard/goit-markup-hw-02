@@ -45,7 +45,7 @@ ul {
 .navi_menu:hover,
 .navi_menu:focus {
   background-color: var(--OCEAN);
-  color: #FFFFFFFF;
+  color: #ffffffff;
 }
 .subtitle_portfolio_img {
   font-weight: 500;
@@ -172,7 +172,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02px;
   background-color: var(--WHITE), #ffffffff;
 }
 .about-section-title {
@@ -184,6 +184,21 @@ ul {
   letter-spacing: 0.4px;
   text-align: center;
 }
+.image-bacground {
+  background-color: var(--WHITE);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
 .paragraf-about-section {
   color: var(--SLATE);
   text-align: center;
